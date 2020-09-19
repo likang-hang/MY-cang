@@ -1,0 +1,130 @@
+.sk {
+    position: absolute;
+    left: 184px;
+    top: 45px;
+    width: 84px;
+    height: 35px;
+    line-height: 35px;
+    color: red;
+    padding-left: 12px;
+    border-left: 2px solid #c81523;
+}
+.lnav1 li {
+    float: left;
+}
+.lnav1 a {
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    padding: 0 30px;
+}
+.rnav1 ul {
+    float: right;
+}
+.rnav1 ul li {
+    float: left;
+}
+.rnav1 ul li a {
+    height: 48px;
+    line-height: 48px;
+    font-size: 12px;
+    color: #666666;
+    padding: 0 20px;
+    font-weight: 700;
+}
+.rnav1 ul li .more::after {
+    content: '';
+    font-family: 'icomoon'; 
+}
+.qianggou {
+    height: 122px;
+}
+.detil {
+    overflow: hidden;
+}
+.apple1 {
+    float: left;
+    width: 290px;
+    height: 480px;
+    margin-right: 13px;
+}
+.apple1:nth-child(4n) {
+    margin-right: 0;
+}
+.apple1:hover {
+    border: red 2px solid;
+}
+.apple1 img {
+    width: 286px;
+    height: 300px;
+}
+.apple1 p {
+    width: 263px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #666666;
+}
+.apple1 h3 {
+    margin-left: 10px;
+    font-size: 18px;
+    color: red;
+    font-weight: normal;  
+    margin-bottom: 2px;
+}
+.apple1 h3 span {
+    margin-left: 7px;
+    font-size: 12px;
+    color: #666666;
+    text-decoration: line-through;
+}
+.apple1 .num {
+    position: relative;
+    top: 0;
+    left: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.apple1 .num .one {
+    width: 135px;
+    height: 11px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.apple1 .num .two {
+    height: 100%;
+    width: 87%;
+    background-color: red;
+}
+.apple1 .num .one {
+    position: absolute;
+    left: 55px;
+    top: 5px;
+}
+.apple1 .num .two {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.apple1 .num .last {
+    position: absolute;
+    right: 40px;
+    top: 0;
+}
+.qg   {
+    margin: 0 auto;
+    width: 286px;
+    height: 51px;
+    margin-top: 6px;
+    background-color: #b1191a;
+    font-size: 18px;
+    text-align: center;
+    line-height: 51px;
+    
+}
+.qg a {
+    color: #fff;
+}

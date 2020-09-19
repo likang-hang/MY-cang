@@ -1,0 +1,212 @@
+@font-face {   font-family: 'icomoon';   src:  url('../fonts/icomoon.eot?tomleg');   src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),     url('fonts/icomoon.ttf?tomleg') format('truetype'),     url('../fonts/icomoon.woff?tomleg') format('woff'),     url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');   font-weight: normal;   font-style: normal;   font-display: block; }
+.shortcut {
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.style-red {
+     color: red;
+}
+.shortcut ul {
+    height: 30px;
+    line-height: 30px;
+}
+.shortcut li {
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+}
+.arrow_icon::after {
+    content: '';
+    font-family: 'icomoon';
+    margin-left: 8px;
+}
+.shortcut .fr ul li:nth-child(2n) {
+    height: 15px;
+    width: 4px;
+    margin: 0 12px;
+}
+.header {
+    position: relative;
+    height: 106px;
+}
+.logo {
+    width: 175px;
+    height: 56px;
+}
+.logo a {
+    position: absolute;
+    width: 175px;
+    height: 56px;
+    top: 27px;
+    background: url(imgsed/logo.png) no-repeat;
+    font-size: 0;
+}
+.search {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 539px;
+    height: 37px;
+    border: 2px solid red;
+}
+.search .txt {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+.search .but {
+    float: left;
+    height: 35px;
+    width: 81px;
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+}
+.hotwords {
+    position: absolute;
+    top: 62px;
+    left: 346px;
+    height: 44px;
+    width: 539px;
+}
+.hotwords li {
+    display: inline-block;
+    margin: 8px 7px 0;
+    font-size: 12px;
+}
+.shopcar {
+    position: absolute;
+    right: 64px;
+    top: 26px;
+    width: 140px;
+    height: 37px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    font-size: 12px;
+    color: #666666;
+    line-height: 37px;
+    text-align: center;
+}
+.shopcar::before {
+    content: '\e93a';
+    font-family: 'icomoon'; 
+    color: red;
+    margin-right: 6px;
+}
+.shopcar::after {
+    content: '\e920';
+    font-family: 'icomoon'; 
+    margin-left: 8px;
+}
+.shopcar .cnt {
+    position: absolute;
+    top: -5px;
+    left: 104px;
+    height: 15px;
+    line-height: 15px;
+    color: #fefefe;
+    padding: 0 4px;
+    background-color: red;
+    border-radius: 7px 7px 7px 0;
+}
+.nav {
+    height: 47px;
+    border-bottom: 2px solid red;
+}
+.nav .cnav {
+    height: 100%;
+}
+.nav .lnav {
+    float: left;
+    height: 45px;
+    width: 209px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+.nav .rnav {
+    float: left;
+}
+.nav .rnav ul li {
+    float: left;
+}
+.nav .rnav ul li a {
+    padding: 0 25px;
+    font-size: 16px;
+    line-height: 45px;
+    
+}
+.footer {
+    height: 417px;
+    background-color: #f5f5f5;
+   margin-top: 50px;
+}
+.shouhou {
+    height: 108px;
+    border-bottom: 1px solid #ededed;
+}
+.shouhou li {
+    float: left;
+    display: block;
+    width: 240px;
+    height: 50px;
+    padding-top: 15px;
+}
+.shouhou  ul li img {
+    float: left;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    margin-right: 7px;
+}
+.shouhou li h4 {
+    margin: 7px 0 2px 0;
+}
+.fuwu {
+    height: 188px;
+    border-bottom: 1px solid #ededed;
+
+}
+.fuwu dl {
+    float: left;
+    margin-left: 50px;
+    margin-top: 21px;
+    width: 150px;
+}
+.fuwu dt {
+    font-size: 16px;
+    color: #333333;
+    padding-bottom: 7px;;
+}
+.fuwu dd {
+    font-size: 12px;
+    color: #666666;
+}
+.fuwu .zhinan,
+.fuwu .yidong {
+    padding-left: 12px;
+}
+.copyright {
+    height: 120px;
+    text-align: center;
+}
+.copyright .links {
+    padding: 19px 0 10px;
+}
+.copyright .links a {
+    padding: 0 12px;
+}
